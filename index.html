@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image:-webkit-image-set("./bp");
+    }
+    h1{
+        color:red;
+    }
+
+    h2{
+        color:blueviolet;
+    }
+    h3{
+        color:blue;
+    }
+    h4
+    {
+        color:brown;
+    }
+    h5{
+        color:yellow;
+    }
+    h6{
+        color:orange;
+    }
+    ol{
+        border: 1px solid blueviolet;
+        background-color: yellow;
+    }
+    ul{
+        border: 1px solid black;
+        background-color: grey;
+    }
+    form{
+        border:1px solid brown;
+        justify-content: space-evenly;
+        background-color: pink;
+    }
+</style>
+<body>
+    <p>This is para</p>
+    <h1>h1 tag</h1>
+    <h2>h2 tag</h2>
+    <h3>h3 tag</h3>
+    <h4>h4 tag</h4>
+    <h5>h5 tag</h5>
+    <h6>h6 tag</h6>
+    <!--Ordered list-->
+    <ol type="a">
+        <li>Kim jisoo</li>
+        <li>Kim jennie</li>
+    </ol>
+    <!--Unorderd list-->
+    <ul type="square">
+        <li>lalisa</li>
+        <li>rosie</li>
+    </ul>
+    <!--definition or descriptive list-->
+    <dl>
+        <dt><b>BLACKPINK</b></dt>
+        <dd>Blackpink is k-pop girl band debuted in 2016</dd>
+    </dl>
+    <form>
+        <!--<label>Username:</label>-->
+        <input id="username" type="text" placeholder="Username" required/><br><br>
+        <input type="password" placeholder="Password" required/><br><br>
+        <input type="email" placeholder="email"/><br><br>
+        <input type="radio" name="gender" />
+        <label>Male</label>
+        <input type="radio" name="gender"/>
+        <label>Female</label>
+        <br><br>
+        <input type="checkbox" name="songs" />
+        <label>Pink venom</label>
+        <input type="checkbox" name="songs" />
+        <label>Shut down</label>
+        <input type="checkbox" name="songs" />
+        <label>Typa girl</label>
+        <br><br>
+        <label><b>Choose an option</b></label>
+        <br><br>
+            <select>
+            <option>How you like that</option>
+            <option>Playing with fire</option>
+            <option>As if its your last</option>
+            </select>
+        
+        <br><br>
+        <input type="file"/>
+        <br><br>
+        <input type="date"/>
+        <br><br>
+        <input type="submit" value="login"/>
+        <br><br>
+        <input type="reset" value="reset"/>
+
+    </form>
+</body>
+</html>
